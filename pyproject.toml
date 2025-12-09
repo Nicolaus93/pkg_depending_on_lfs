@@ -5,5 +5,5 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-	"remote-lfs @ git+ssh://git@github.com/Nicolaus93/remote-lfs.git@483765d3a6c82ecb31e530ff440a75282a27560a",
+	"remote-lfs @ git+https://git@github.com/Nicolaus93/remote-lfs.git@483765d3a6c82ecb31e530ff440a75282a27560a",
 ]

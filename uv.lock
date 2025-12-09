@@ -11,9 +11,9 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "remote-lfs", git = "ssh://git@github.com/Nicolaus93/remote-lfs.git?lfs=true&rev=483765d3a6c82ecb31e530ff440a75282a27560a" }]
+requires-dist = [{ name = "remote-lfs", git = "https://github.com/Nicolaus93/remote-lfs.git?lfs=true&rev=483765d3a6c82ecb31e530ff440a75282a27560a" }]
 
 [[package]]
 name = "remote-lfs"
 version = "0.1.0"
-source = { git = "ssh://git@github.com/Nicolaus93/remote-lfs.git?lfs=true&rev=483765d3a6c82ecb31e530ff440a75282a27560a#483765d3a6c82ecb31e530ff440a75282a27560a" }
+source = { git = "https://github.com/Nicolaus93/remote-lfs.git?lfs=true&rev=483765d3a6c82ecb31e530ff440a75282a27560a#483765d3a6c82ecb31e530ff440a75282a27560a" }
