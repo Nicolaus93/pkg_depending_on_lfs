@@ -15,12 +15,12 @@ jobs:
         run: git --version
 
       # -------------------------
-      # Step 1: Install uv 0.9.14
+      # Step 1: Install uv 0.9.7
       # -------------------------
-      - name: Install uv 0.9.14
+      - name: Install uv 0.9.7
         run: |
           curl -LsSf https://astral.sh/uv/install.sh | \
-            UV_INSTALL_VERSION=0.9.14 sh
+            UV_INSTALL_VERSION=0.9.7 sh
           echo "$HOME/.cargo/bin" >> $GITHUB_PATH
           uv --version
 
@@ -39,7 +39,7 @@ jobs:
       - name: Upload lockfile artifact
         uses: actions/upload-artifact@v4
         with:
-          name: uv-lock-from-0.9.14
+          name: uv-lock-from-0.9.7
           path: uv.lock
 
       # -------------------------
